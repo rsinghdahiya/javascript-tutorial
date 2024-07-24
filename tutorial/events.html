@@ -1,0 +1,30 @@
+<!Doctype html>
+<html>
+    <head>
+        <title>Events</title>
+        <style>
+            img{width: 100%; max-width: 200px;}
+            li{list-style: none; margin-bottom: 30px;}
+        </style>
+    </head>
+    <body>
+        <h2>Events</h2>
+        <ul>
+            <li>
+                <img src="https://images.pexels.com/photos/15286/pexels-photo.jpg" id="prayer">
+            </li>
+            <li>
+                <img src="https://images.pexels.com/photos/3408744/pexels-photo-3408744.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" id="nature">
+            </li>
+            <li>
+                <a href="https://www.google.com/" id="google">Google</a>
+            </li>
+        </ul>
+
+        <script>
+            document.getElementById('nature').addEventListener('click', function(e){
+                console.log(e);
+            })
+        </script>
+    </body>
+</html>
